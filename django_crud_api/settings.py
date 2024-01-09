@@ -142,6 +142,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'https://django-tutorial.up.railway.app'
 ]
+# CSRF
+CSRF_TRUSTED_ORIGINS = ['https://django-tutorial.up.railway.app']
 
 # REST FRAMEWORK conf
 REST_FRAMEWORK = {
